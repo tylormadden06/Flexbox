@@ -1,0 +1,62 @@
+.container {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: gray;
+}
+
+.two {
+    gap: 10px;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.two .box {
+    flex-grow: 1;
+}
+
+.three {
+    gap: 15px;
+    padding: 15px;
+    background-color: lightblue;
+}
+
+.three .box {
+    flex-grow: 1;
+}
+
+.unequal {
+    gap: 12px;
+    padding: 12px;
+    background-color: lightblue;
+}
+
+.unequal .box {
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.unequal .double {
+    flex-grow: 2;
+}
+
+.four {
+    height: 100px;
+    gap: 12px;
+    padding: 12px;
+    background-color: lightblue;
+}
+
+.four .box {
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.four .footer {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+}
